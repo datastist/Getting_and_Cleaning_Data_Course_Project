@@ -37,4 +37,4 @@ names(y) <- 'activity'
 # 5. finding mean of each measurement per activity and subject
 df <- bind_cols(X2, subject, y)
 grouped_mean <- df %>% group_by(subject, activity) %>% summarise_all(list(mean))
-write.table(grouped_mean, 'grouped_mean.txt')
+write.table(grouped_mean, 'grouped_mean.txt', row.names = FALSE)
