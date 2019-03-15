@@ -52,6 +52,8 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
+- grouped_mean.txt : The tidy dataframe including mean of each of the previous variables grouped by subject and activity
+
 Notes: 
 ======
 - Features are normalized and bounded within [-1,1].
