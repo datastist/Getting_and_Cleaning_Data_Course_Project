@@ -60,6 +60,7 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
+## Files and Methods used to process the dataframe
 
 The code available in run_analysis.R is generating a tidy dataframe named 'grouped_mean.txt' from mean of above features grouped by subject and activity.
 
